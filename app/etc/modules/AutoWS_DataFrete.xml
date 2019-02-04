@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AutoWS_DataFrete>
+            <active>true</active>
+            <codePool>local</codePool>
+        </AutoWS_DataFrete>
+    </modules>
+</config>

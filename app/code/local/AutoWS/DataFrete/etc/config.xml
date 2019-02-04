@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<AutoWS_DataFrete>
+			<version>1.0</version>
+		</AutoWS_DataFrete>
+	</modules>
+
+	<global>
+        <helpers>
+            <autows_datafrete>
+                <class>AutoWS_DataFrete_Helper</class>
+            </autows_datafrete>
+        </helpers>
+
+		<models>
+			<autows_datafrete>
+				<class>AutoWS_DataFrete_Model</class>
+			</autows_datafrete>
+		</models>
+	</global>
+
+	<default>
+		<carriers>
+			<autows_datafrete>
+				<sallowspecific>1</sallowspecific>
+				<specificcountry>BR</specificcountry>
+				<model>autows_datafrete/method</model>
+				<active>1</active>
+				<title>DATAFRETE</title>
+				<weightUnit>kg</weightUnit>
+				<sizeUnit>m</sizeUnit>
+				<displayOrder>0</displayOrder>
+				<defaultShippingDeadline>15</defaultShippingDeadline>
+				<msgShippingDeadline>(Entrega em %s dias úteis)</msgShippingDeadline>
+				<slackChannel>#general</slackChannel>
+			</autows_datafrete>
+		</carriers>
+	</default>
+
+</config>
